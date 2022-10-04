@@ -26,6 +26,8 @@ const Home = () => {
           showThumbs={false}
           autoPlay={true}
           transitionTime={3}
+          swipeable={false}
+          verticalSwipe="standart"
           infiniteLoop={true}
           showStatus={false}
         >
