@@ -13,7 +13,7 @@ const Card = ({ movie }) => {
           alt=""
         />
         <div className="bg-black/10 backdrop-blur-sm absolute rounded-t-lg top-[30%] left-0 right-0 mx-auto bottom-0 opacity-0 hover:opacity-100 px-4">
-          <div className="py-5 flex flex-col gap-3 items-center overflow-x-hidden overflow-y-scroll">
+          <div className="py-5 flex flex-col gap-3 items-center ">
             <h1 className=" font-bold">{movie.title}</h1>
 
             <div className="flex items-center gap-2">
